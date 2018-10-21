@@ -1,0 +1,9 @@
+/data
+/saveFolder
+/.idea
+/__pycache__
+/.ipynb_checkpoints
+.RData
+.Rhistory
+/write
+/cache

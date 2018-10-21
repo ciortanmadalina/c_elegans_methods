@@ -1,0 +1,10 @@
+setwd("C:/workspace/ml/all_c_elegans")
+library(e1071)
+library(Matrix)
+#library(SparseM)
+
+df<-get(load("data/GSM2599701_Gene.count.matrix.celegans.cell.Rdata") )
+row.names(df)
+nrow(df)
+ncol(df)
+col(df)
