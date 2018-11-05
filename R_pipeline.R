@@ -16,4 +16,8 @@ umi <- SingleCellExperiment(
   assays = list(counts = as.matrix(df)), 
   colData = anno
 )
+
+keep_feature <- rowSums(counts(umi) > 0) > 0
+umi <- umi[keep_feature, ]
 umi
+
